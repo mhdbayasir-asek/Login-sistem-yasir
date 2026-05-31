@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+
+    background: linear-gradient(
+        135deg,
+        #112C70,
+        #5B58EB,
+        #BB63FF,
+        #56E1E9
+    );
+}
+
+.kotak-login{
+    width: 320px;
+
+    padding: 25px;
+
+    border-radius: 25px;
+
+    background: rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+input{
+    width: 90%;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    outline: none;
+}
+
+button{
+    width: 98%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #5B58EB;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background: #BB63FF;
+}
+
+#hasil{
+    color: white;
+    font-weight: bold;
+}
